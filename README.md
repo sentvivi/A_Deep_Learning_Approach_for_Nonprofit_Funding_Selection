@@ -36,6 +36,7 @@ Step 4: Neural Network Model Findings
 * Evaluate model performance and provide recommendations.
 
 Conclusion
+
 This project underscores the importance of feature selection in machine learning model accuracy. Initially, we attempted to streamline the analysis by removing both the EIN and NAME columns to reduce the number of features. However, even with the reduction in features, achieving an accuracy of over 75% required the incorporation of additional layers in the neural network architecture.
 
 Surprisingly, reintroducing the NAME column, grouped by values with occurrences less than 100 into an "other" category, significantly improved model performance. This highlights the notion that fewer features do not necessarily equate to higher accuracy. Instead, thoughtful feature engineering and selection play a crucial role in model efficacy.
