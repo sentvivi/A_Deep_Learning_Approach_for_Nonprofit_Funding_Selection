@@ -37,8 +37,10 @@ Step 4: Neural Network Model Findings
 
 Conclusion
 
-This project underscores the importance of feature selection in machine learning model accuracy. Initially, we attempted to streamline the analysis by removing both the EIN and NAME columns to reduce the number of features. However, even with the reduction in features, achieving an accuracy of over 75% required the incorporation of additional layers in the neural network architecture.
+This project underscores the critical role of feature selection in enhancing machine learning model accuracy. Despite initial efforts to streamline analysis by reducing the number of features, achieving an accuracy of over 75% necessitated the inclusion of additional layers in the neural network architecture.
 
-Surprisingly, reintroducing the NAME column, grouped by values with occurrences less than 100 into an "other" category, significantly improved model performance. This highlights the notion that fewer features do not necessarily equate to higher accuracy. Instead, thoughtful feature engineering and selection play a crucial role in model efficacy.
+Moreover, the reintroduction of the NAME column, with values grouped into an "other" category for occurrences less than 100, notably enhanced model performance. This demonstrates that fewer features do not necessarily translate to improved accuracy. Rather, deliberate feature engineering and selection are pivotal in optimizing model efficacy.
 
-Ultimately, the project aims to empower Alphabet Soup in making more informed decisions regarding funding applicants. Through the development and optimization of a robust neural network model, we aspire to enhance the foundation's ability to select organizations with the highest likelihood of success in their endeavors.
+It's noteworthy that too many branches in hidden layers can adversely affect prediction accuracy. Sometimes, an excessive number of branches can even deteriorate model performance. Hence, striking the right balance between complexity and simplicity in neural network architecture is crucial for achieving optimal results.
+
+Ultimately, this project aims to equip Alphabet Soup with the tools to make more informed decisions regarding funding applicants. By developing and refining a robust neural network model, we strive to bolster the foundation's capacity to select organizations with the highest potential for success in their endeavors.
